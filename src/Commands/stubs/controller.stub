@@ -3,10 +3,16 @@
 namespace $CLASS_NAMESPACE$;
 
 use Illuminate\Contracts\Support\Renderable;
+use App\Http\Controllers\RmbaseController;
 use Illuminate\Http\Request;
-use App\Http\Controllers\Controller;
+use Illuminate\Support\Facades\Validator;
+use App\Constants\MappErrorCode;
 
-class $CLASS$ extends Controller
+use App\Helpers\WaferbaseHelp;
+use App\Helpers\CommonHelper;
+use DB;
+
+class $CLASS$ extends RmbaseController
 {
     /**
     * Create a new controller instance.

@@ -2,9 +2,9 @@
 
 namespace $NAMESPACE$;
 
-use Illuminate\Database\Eloquent\Model;
+use App\Models\Rmmodeldb;
 
-class $CLASS$ extends Model
+class $CLASS$ extends Rmmodeldb
 {
 
     protected $fillable = $FILLABLE$;
