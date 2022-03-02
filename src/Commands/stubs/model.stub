@@ -6,6 +6,7 @@ use App\Models\Rmmodeldb;
 
 class $CLASS$ extends Rmmodeldb
 {
+    protected $moduleName = '$STUDLY_NAME$';
 
     protected $fillable = $FILLABLE$;
     
