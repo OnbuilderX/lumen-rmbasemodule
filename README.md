@@ -1,5 +1,5 @@
 # lumen-rmbasemodule
-Modular Mangement in Lumen 
+Modular Management in Lumen 
 
 ### Features
 
@@ -16,8 +16,9 @@ To install through Composer, by run the following command:
  
  	$app->register(RmBased\Modules\LumenModulesServiceProvider::class);
 
-By default the module classes are not loaded automatically. You can autoload your modules using `psr-4`. so add bellow  code in your composer.json :
+By default the module classes are not loaded automatically. You can autoload your modules using `psr-4`. Add in your composer.json :
 
+``` json
 	{
   	"autoload": {
             "psr-4": {
@@ -26,14 +27,17 @@ By default the module classes are not loaded automatically. You can autoload you
             }
  	    }
 	}
+```
 
-### Tip: don't forget to run composer dump-autoload afterwards
+**Tip: don't forget to run `composer dump-autoload` afterwards.**
 
-for more info and full documentation visit https://nwidart.com/laravel-modules/
+## Documentation
+
+You'll find installation instructions and full documentation on [https://nwidart.com/laravel-modules/](https://nwidart.com/laravel-modules/).
 
 ### Credits
 [Nicolas Widart](https://github.com/nwidart "Nicolas Widart")
 
+## License
 
-### License
 The MIT License (MIT).
