@@ -19,14 +19,14 @@ To install through Composer, by run the following command:
 By default the module classes are not loaded automatically. You can autoload your modules using `psr-4`. Add in your composer.json :
 
 ``` json
-	{
-  	"autoload": {
-            "psr-4": {
-                "App\\": "app/",
-                "Modules\\": "modules/"
-            }
- 	    }
-	}
+{
+  "autoload": {
+      "psr-4": {
+			"App\\": "app/",
+			"Modules\\": "modules/"
+      }
+  }
+}
 ```
 
 **Tip: don't forget to run `composer dump-autoload` afterwards.**
