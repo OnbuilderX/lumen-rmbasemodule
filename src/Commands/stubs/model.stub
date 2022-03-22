@@ -2,13 +2,13 @@
 
 namespace $NAMESPACE$;
 
-use App\Models\Rmmodeldb;
-
-class $CLASS$ extends Rmmodeldb
+class $CLASS$ extends \App\Models\RmmodeldbRmmodeldb
 {
     protected $moduleName = '$STUDLY_NAME$';
 
     protected $fillable = $FILLABLE$;
+
+    public $timestamps   = false; 
     
 
 }
