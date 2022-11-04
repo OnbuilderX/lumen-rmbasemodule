@@ -1,6 +1,6 @@
 <?php
 
-namespace rmBased\Modules\Generators;
+namespace RmBased\Modules\Generators;
 
 use Illuminate\Filesystem\Filesystem;
 use RmBased\Modules\Exceptions\FileAlreadyExistException;
