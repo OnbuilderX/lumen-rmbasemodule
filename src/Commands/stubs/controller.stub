@@ -19,7 +19,11 @@ class $CLASS$ extends RmbaseController
     *
     * @return void
     */
+
+    protected $logName = "$MODULENAME$/$CLASS$";
+
     public function __construct()
     {
+        parrent::__construct();
     }
 }
